@@ -1,0 +1,6 @@
+let cislo = 16;
+function odmocnina(cislo){
+    return Math.sqrt(cislo);
+}
+
+console.log(odmocnina(cislo));
