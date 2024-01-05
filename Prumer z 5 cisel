@@ -1,0 +1,15 @@
+let a = 2;
+let b = 3;
+let c = 4;
+let d = 5;
+let e = 6;
+
+console.log(prumer(a,b,c,d,e))
+
+function prumer(a,b,c,d,e) {
+    let x = 0;
+    let y = 0;
+    x = a + b + c + d + e 
+    y = x / 5;
+    return y;
+}
