@@ -1,0 +1,14 @@
+let pole = [1,2,3];
+
+function prvekvpoli(pole){
+    let prvek = 1;
+    for (let i = 0; i < pole.length; i++)
+    {
+        if(prvek == pole[i])
+        {
+            return "Prvek " + pole[i] + " " +"se nachází v poli";
+        }
+    }
+}
+
+console.log(prvekvpoli(pole));
