@@ -1,0 +1,15 @@
+let a = 5;
+
+console.log(lichost(a));
+
+function lichost(a)
+{
+if (a % 2 == 0)
+{
+return "Číslo není liché";
+}
+else
+{
+return "Číslo je liché";
+}
+}
